@@ -1,6 +1,10 @@
 //This is a simpleprogram that creates a single linked list //It makes use of some of the object oriented programming techniques #include using namespace std;
 
-//------------------------------Node Structure--------------------------------------// struct node{//structure of the node int data; struct node * next;//reference to the struct node itself };
+//------------------------------Node Structure--------------------------------------// 
+struct node{//structure of the node 
+    int data; 
+    struct node * next;//reference to the struct node itself
+};
 
 //------------------------------linked list class--------------------------------------// class linked_list{// structure for the link list that will contain the functions for // creation, traversal, and delition. private: node *head,*tail;//set the structs for the head and tail public: linked_list();//constructor
 

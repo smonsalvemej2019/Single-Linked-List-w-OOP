@@ -161,7 +161,11 @@ tmp->next=head;
 head = tmp;
 }
 
-linked_list::linked_list(){//set the head of the node to null atuomatically head=NULL; tail=NULL; }
+linked_list::linked_list(){
+    //set the head of the node to null atuomatically 
+    head=NULL; 
+    tail=NULL; 
+}
 
 void linked_list::create_node(int n){//create node function definition
 
